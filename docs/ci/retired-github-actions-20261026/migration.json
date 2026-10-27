@@ -1,0 +1,47 @@
+{
+  "repository": "resolveup-cloud/photo-for-you-auth-service",
+  "projectId": "resolveup-services",
+  "ciRunId": "cmvpusndt000901omrpcfkkc8",
+  "ciStatus": "SUCCEEDED",
+  "sourceCommit": "bd30c64477ef95cd4d9b2b02167972ea5e9aacf1",
+  "publicationId": "cmvpx50w90000k8o4yx51q5wf",
+  "publicationStatus": "SUCCEEDED",
+  "publicationReceipt": {
+    "kind": "registry",
+    "runId": "cmvpusndt000901omrpcfkkc8",
+    "images": [
+      {
+        "tag": "ghcr.io/resolveup-cloud/photo-for-you-auth-service:sha-bd30c64477ef95cd4d9b2b02167972ea5e9aacf1",
+        "aliases": [
+          {
+            "tag": "ghcr.io/resolveup-cloud/photo-for-you-auth-service:latest",
+            "registryDigest": "sha256:efa9bfcc3ab8ba51a09020375d8fddb6080f1ed1116a003375662501c38e344f",
+            "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-auth-service@sha256:efa9bfcc3ab8ba51a09020375d8fddb6080f1ed1116a003375662501c38e344f"
+          }
+        ],
+        "imageId": "sha256:ac1567fc1fc19804facd06423a87ab6deb42515ad08dc96acc5a509df3da466b",
+        "revision": "bd30c64477ef95cd4d9b2b02167972ea5e9aacf1",
+        "artifactId": "api",
+        "localCache": {
+          "removed": true
+        },
+        "architecture": "amd64",
+        "registryDigest": "sha256:efa9bfcc3ab8ba51a09020375d8fddb6080f1ed1116a003375662501c38e344f",
+        "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-auth-service@sha256:efa9bfcc3ab8ba51a09020375d8fddb6080f1ed1116a003375662501c38e344f"
+      }
+    ],
+    "targetId": "photo-for-you-auth-service-images",
+    "commitSha": "bd30c64477ef95cd4d9b2b02167972ea5e9aacf1",
+    "finishedAt": "2026-10-27T00:49:51Z",
+    "archiveSha256": "9fd2bd292fba1294d5ac604a1eb6e74791bfd6df12c2ab2a725c1112e401013e"
+  },
+  "retiredWorkflows": [
+    "ci-cd.yml"
+  ],
+  "remainingWorkflows": [
+    "build-artifact.yml"
+  ],
+  "archivedWorkflowSha256": {
+    "ci-cd.yml": "33fa25b62ce68e1a861ed088bfd7e8a45d41da518926c0f6882ab26608fd11fc"
+  }
+}
